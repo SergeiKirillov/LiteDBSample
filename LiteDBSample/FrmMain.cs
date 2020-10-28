@@ -8,6 +8,7 @@ using System.Windows.Forms;
 namespace LiteDBSample
 {
 
+
     public partial class FrmMain : Form
     {
         string liteDBPath = ConfigurationManager.AppSettings["DbPath"].ToString();
